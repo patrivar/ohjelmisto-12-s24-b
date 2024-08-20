@@ -1,4 +1,4 @@
-CREATE USER patrivar@localhost
+CREATE USER python@localhost
  IDENTIFIED BY 'python'
 
 -- Poistetaan tietokanta, jos se on jo olemassa
