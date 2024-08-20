@@ -44,3 +44,7 @@ values(1,1),(1,3),(2,5),(3,4);
 
  -- Annetaan käyttäjälle luku- ja päivitysoikeudet tietokantaan ankkalinna
  GRAN SELECT, INSERT, UPDATE ON ankkalinna.* TO patrivar@localhost;
+-- Kirjautuminen käyttäjällä (terminaali): mysql -u käyttäjänimi -p (-psalasana yhteen)
+
+-- Hae lemmikki-taulun kaikki sisältö
+SELECT * FROM lemmikki;
