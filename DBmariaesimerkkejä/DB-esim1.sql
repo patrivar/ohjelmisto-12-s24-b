@@ -1,5 +1,5 @@
-CREATE USER python@localhost
- IDENTIFIED BY 'python'
+CREATE USER ankkalinna1@localhost
+ IDENTIFIED BY 'ankkalinna1'
 
 -- Poistetaan tietokanta, jos se on jo olemassa
        DROP DATABASE IF EXISTS ankkalinna;
